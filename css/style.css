@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.head-class {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: -38px;
+}
+.nav-item {
+    margin-left: 23px;
+}
+
+.nav-item::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+.dollor::before {
+    content: "$";
+    color: #285193; 
+}
+.rubl::before {
+    content: "P";
+    color: #285193;
+}
+.euro::before {
+    content: "E";
+    color: #285193;
+}
+.rus::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 18px;
+    background-image: url(../img/cif_ru.svg);
+}
+.list-follower {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: -31px;
+
+}
+.list-follower i {
+    padding-right: 5px;
+}
+.follow-but {
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    margin-right: 15px;
+}
+.follow-but::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../img/telegram.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 2px;
+    
+}
+.category {
+    min-height: 25px;
+    font-weight: 500px;
+
+}
+.list-category {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -37px;
+}
+.list-category a {
+    text-decoration: none;
+    color: #515151;
+    font-weight: 500px;
+    display: inline-block;
+}
+
+.rec-img {
+    width: 1320px;
+    height: 120px;
+}
+.rec {
+    padding-top: 50px;
+}
+
+.stats {
+    width: 1300px;
+    height: 140px;
+}
+
+
+.list-stats {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 45px;
+    padding-top: 20px;
+    list-style: none;
+    background-color: #F6F6F9;
+}
+.stats-list {
+    width: 315px;
+    height: 100px;
+    border-right: 3px solid #EB5569;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 20px; 
+}
+.stats-list::before {
+    content: "";
+    width: 43px;
+    height: 45px;
+    display: inline-block;
+    background-image: url(../img/icon-covid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 15px;
+    
+}
+.suck-list {
+    width: 305px;
+    height: 100px;
+    border-right: 2px solid #F4CCD1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #DB0000;
+    padding-top: 20px;
+}
+.suck-list::before {
+    content: "";
+    width: 38px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../img/Vector\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: -60px;
+}
+.num-suck {
+    color: black;
+    font-weight: 500px;
+}
+
+.repaired-list {
+    width: 305px;
+    height: 100px;
+    border-right: 2px solid #F4CCD1;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    color: #15CE3D;
+    padding-top: 20px;
+}
+.repaired-list::before {
+    content: "";
+    width: 38px;
+    height: 40px;
+    display: inline-block;
+    background-image: url("../img/repaired.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: -80px;
+}
+.num-rep {
+    color: black;
+    font-weight: 400px;
+}
+.dead-list {
+    width: 200px;
+    height: 120px;
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.dead-list::before {
+    content: "";
+    width: 38px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../img/icon-dead.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: -50px;
+}
+.num-dead {
+    color: black;
+    font-weight: 400px;
+}
